@@ -3,5 +3,6 @@ This is a temporary repository to tests a scenario where typescript 4 causes err
 
 ## Repro steps
 
-- In a terminal, run the command `npm run tsc`. This will attempt to compile the `index.ts` which imports the `@microsoft/fast-components` and use the locally installed TypeScript 4+.
+- Run the command `npm i` to install dependencies
+- Run the command `npm run tsc`. This will attempt to compile the `index.ts` which imports the `@microsoft/fast-components` and use the locally installed TypeScript 4+.
 - The errors should show up in the terminal.

@@ -1,0 +1,25 @@
+{
+  "name": "typescript-4-fast-components-test",
+  "version": "1.0.0",
+  "description": "test project for fast components ts errors",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janechu/typescript-4-fast-components-test.git"
+  },
+  "author": "Jane Chu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janechu/typescript-4-fast-components-test/issues"
+  },
+  "homepage": "https://github.com/janechu/typescript-4-fast-components-test#readme",
+  "dependencies": {
+    "@microsoft/fast-components": "^2.10.1",
+    "typescript": "^4.4.3"
+  }
+}

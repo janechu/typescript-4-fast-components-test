@@ -1,0 +1,25 @@
+{
+    "include": [
+        "src/**/*"
+    ],
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "module": "ES6",
+        "moduleResolution": "node",
+        "target": "ES6",
+        "lib": [
+            "DOM",
+            "ESNext",
+            "ES2015",
+            "ES2016.Array.Include"
+        ],
+        "baseUrl": "./",
+        "declaration": false,
+        "outDir": "dist/esm",
+        "allowJs": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
